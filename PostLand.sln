@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECFCFBCC-3C02-44CB-AFD4-BE43C2262493}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9560FFFD-9280-4CDD-881F-2FD2142BD186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{D9DE2DC7-9C3D-46AC-9769-22E82B7C11FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{68E44688-DF64-4951-BC04-CB425EF3B057}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ui", "Ui", "{58E9B35C-B45C-43BE-ACA0-1810538042B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infracturation", "Infracturation", "{3B459C0F-776E-406C-9650-A5E6D2F25B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostLand.Domainn", "PostLand.Domainn\PostLand.Domainn.csproj", "{58B9E11D-9912-499B-A7A7-B6508C93A9B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostLand.Application", "PostLand.Application\PostLand.Application.csproj", "{8C7A3007-AA9B-4DB3-B037-5CE71D85BAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostLand.Persistence", "PostLand.Persistence\PostLand.Persistence.csproj", "{E0637DE5-CC1C-4CE5-9158-4F1D319755B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostLand.Api", "PostLand.Api\PostLand.Api.csproj", "{EC140651-A379-48DC-A06D-13C9C204C1EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58B9E11D-9912-499B-A7A7-B6508C93A9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B9E11D-9912-499B-A7A7-B6508C93A9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B9E11D-9912-499B-A7A7-B6508C93A9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B9E11D-9912-499B-A7A7-B6508C93A9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7A3007-AA9B-4DB3-B037-5CE71D85BAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7A3007-AA9B-4DB3-B037-5CE71D85BAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7A3007-AA9B-4DB3-B037-5CE71D85BAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7A3007-AA9B-4DB3-B037-5CE71D85BAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0637DE5-CC1C-4CE5-9158-4F1D319755B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0637DE5-CC1C-4CE5-9158-4F1D319755B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0637DE5-CC1C-4CE5-9158-4F1D319755B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0637DE5-CC1C-4CE5-9158-4F1D319755B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC140651-A379-48DC-A06D-13C9C204C1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC140651-A379-48DC-A06D-13C9C204C1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC140651-A379-48DC-A06D-13C9C204C1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC140651-A379-48DC-A06D-13C9C204C1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9DE2DC7-9C3D-46AC-9769-22E82B7C11FC} = {ECFCFBCC-3C02-44CB-AFD4-BE43C2262493}
+		{68E44688-DF64-4951-BC04-CB425EF3B057} = {ECFCFBCC-3C02-44CB-AFD4-BE43C2262493}
+		{58E9B35C-B45C-43BE-ACA0-1810538042B8} = {ECFCFBCC-3C02-44CB-AFD4-BE43C2262493}
+		{3B459C0F-776E-406C-9650-A5E6D2F25B3B} = {ECFCFBCC-3C02-44CB-AFD4-BE43C2262493}
+		{58B9E11D-9912-499B-A7A7-B6508C93A9B3} = {D9DE2DC7-9C3D-46AC-9769-22E82B7C11FC}
+		{8C7A3007-AA9B-4DB3-B037-5CE71D85BAFA} = {D9DE2DC7-9C3D-46AC-9769-22E82B7C11FC}
+		{E0637DE5-CC1C-4CE5-9158-4F1D319755B0} = {3B459C0F-776E-406C-9650-A5E6D2F25B3B}
+		{EC140651-A379-48DC-A06D-13C9C204C1EA} = {68E44688-DF64-4951-BC04-CB425EF3B057}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCB1F1EF-B693-4C0A-AE73-2B15CF012A9B}
+	EndGlobalSection
+EndGlobal
